@@ -14,6 +14,8 @@ function sendEmail3() {
     // if文を使ってメール送信されないようにしてください。
 
     Logger.log(`送信対象：${sendTarget}\n送信先メールアドレス：${recipient}\nメール件名：${subject}\nメール本文：${body}`);
+
+    // メールを送信する場合はこちらコメントアウトを外してください。
     // GmailApp.sendEmail(recipient, subject, body);
   }
 }

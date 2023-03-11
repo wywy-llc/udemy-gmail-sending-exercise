@@ -15,6 +15,7 @@ function sendEmail5() {
     }
     const sentDate = new Date();
     Logger.log(`送信対象：${sendTarget}\n送信先メールアドレス：${recipient}\nメール件名：${subject}\nメール本文：${body}\n送信時間：${sentDate.toLocaleString("ja-JP")}`);
+    // メールを送信する場合はこちらコメントアウトを外してください。
     // GmailApp.sendEmail(recipient, subject, body);
     
     // 演習5-1. メールデータの送信時間に現在時刻を設定してください。

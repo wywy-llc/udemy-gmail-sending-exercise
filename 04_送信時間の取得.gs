@@ -19,6 +19,8 @@ function sendEmail4() {
     // 演習4-2. 「送信時間：${sentDate}」を"年/月/日 時:分:秒"形式で出力してください。
     // 出力例：「送信時間：2023/3/10 16:05:13」
     Logger.log(`送信対象：${sendTarget}\n送信先メールアドレス：${recipient}\nメール件名：${subject}\nメール本文：${body}\n送信時間：${sentDate}`);
+
+    // メールを送信する場合はこちらコメントアウトを外してください。
     // GmailApp.sendEmail(recipient, subject, body);
   }
 }

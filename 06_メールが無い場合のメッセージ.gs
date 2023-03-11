@@ -31,7 +31,10 @@ function sendEmail6() {
     }
     const sentDate = new Date();
     Logger.log(`送信対象：${sendTarget}\n送信先メールアドレス：${recipient}\nメール件名：${subject}\nメール本文：${body}\n送信時間：${sentDate.toLocaleString("ja-JP")}`);
+    
+    // メールを送信する場合はこちらコメントアウトを外してください。
     // GmailApp.sendEmail(recipient, subject, body);
+
     mailData[4] = sentDate;
     mailData[0] = false;
   }
