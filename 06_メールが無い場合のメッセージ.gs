@@ -10,14 +10,13 @@ function sendEmail6() {
 
   // 演習6-1. メール送信対象ONのデータを変数existsTargetに
   // 代入してください。便利メソッドのfilter()を活用してください。
-  const existsTarget = mailValues.find((value) => {
-    const sendTarget = value[0];
-    return sendTarget;
-  });
+  const existsTarget = "メール送信対象ONのデータ";
+
   if (!existsTarget) {
     // 演習6-2. '送信対象を選択してください。'というメッセージで
     // スプレッドシートにダイアログボックスを表示させてください。
     // ダイアログボックスの出力には、Browser.msgBox()を活用してください。
+    
     return;
   }
 
