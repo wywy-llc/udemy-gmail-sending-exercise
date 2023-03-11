@@ -13,6 +13,7 @@ function sendEmail2() {
 
   // 演習2-4. メールデータ配列の各値をログに出力してください。
   for (const mailData of mailValues) {
+    const sendTarget = '送信対象'
     const recipient = '送信先メールアドレス';
     const subject = 'メール件名';
     const body = 'メール本文'
