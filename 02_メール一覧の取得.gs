@@ -3,7 +3,7 @@
  */
 function sendEmail2() {
   // 演習2-1. 現在アクティブなシートを取得してください。
-  const sheet = 'アクティブなスプレッドシート';
+  const sheet = 'アクティブなシート';
 
   // 演習2-2. メールシートからメールデータの範囲(Range)を取得してください。
   const mailDataRange = 'メールデータの範囲(Range)';
