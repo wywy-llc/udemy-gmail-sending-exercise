@@ -15,10 +15,12 @@ function sendEmail() {
     Browser.msgBox('送信対象を選択してください。', Browser.Buttons.OK);
     return;
   }
-  const result = Browser.msgBox('メールを送信してよろしいでしょうか？', Browser.Buttons.OK_CANCEL);
-  if (result === "cancel") {
-    return;
-  }
+  // 演習7-1.  送信する前に、'メールを送信してよろしいでしょうか？'
+  // というダイアログボックスをスプレッドシートに表示してください。
+  // ダイアログボックスの出力には、Browser.msgBox()を活用してください。
+  // 「OK」「キャンセル」ボタンの表示には、Browser.Buttons.OK_CANCELを使ってください。
+  const result = '選択結果'
+
   // メール送信
   for (const value of mailValues) {
     const sendTarget = value[0];

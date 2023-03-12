@@ -12,7 +12,7 @@ function sendEmail6() {
   // 代入してください。便利メソッドのfilter()を活用してください。
   const existsTarget = "メール送信対象ONのデータ";
 
-  if (!existsTarget) {
+  if (existsTarget.length === 0) {
     // 演習6-2. 送信対象が無い場合、'送信対象を選択してください。'
     // というダイアログボックスをスプレッドシートに表示してください。
     // ダイアログボックスの出力には、Browser.msgBox()を活用してください。
